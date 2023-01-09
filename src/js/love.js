@@ -11,15 +11,15 @@ let quotesData;
 var colors = [
   '#E97777',
   '#FF9F9F',
-  '#FCDDB0',
-  '#FFFAD7',
-  '#FFB9B9',
-  '#FFDDD2',
+  '#B25068',
+  '#9FC088',
+  '#A36F6F',
+  '#AC7088',
   '#FB6964',
-  '#FFACC7',
+  '#C7B72C',
   '#FF8DC7',
-  '#BDBB99',
-  '#FCE2DB',
+  '#FF7C7C',
+  '#819180',
   '#FF8FB1'
 ];
 var currentQuote = '',
@@ -30,7 +30,7 @@ function getQuotes() {
     headers: {
       Accept: 'application/json'
     },
-    url: 'https://gist.githubusercontent.com/demapuspita/bedc60e20d1a3ff9b6dfbf5b600f4ba8/raw/b754381a15884e532fce71816d717fac9616a5f8/love%2520quotes.json',
+    url: 'https://gist.githubusercontent.com/demapuspita/bedc60e20d1a3ff9b6dfbf5b600f4ba8/raw/08f7d571005ebeb55357d418e0c3e8787d0fa492/love%2520quotes.json',
     success: function (jsonQuotes) {
       if (typeof jsonQuotes === 'string') {
         quotesData = JSON.parse(jsonQuotes);
