@@ -22,12 +22,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
     
-
     <title>Love Quotes</title>
+
+    <style>
+        * {
+            font-family: 'Nunito Sans', sans-serif;
+        }
+
+        a:hover {
+            color: #E64848;
+        }
+
+        ul li.active a {
+            background: #E64848;
+            color: #262626;
+            border-radius: 5px;
+        }
+
+        #quote {
+            padding-top: 8rem;
+            padding-bottom: 8rem;
+        }
+    </style>
   </head>
   <body>
     <!-- Navbar Awal -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
         </div>
@@ -37,7 +57,7 @@
     <!-- Quote Awal -->
     <section id="quote">
         <div class="container">
-            <div class="row justify-content-center mt-5">
+            <div class="row justify-content-center">
                 <div class="col-md-6">
                     <div class="service-item bg-white shadow p-4 rounded text-center">
                         <div class="quote-text fs-4 fw-bold mt-3">
@@ -61,7 +81,7 @@
     <!-- Quote Akhir -->
 
     <!-- Footer Awal -->
-    <section id="footer" class="bg-light">
+    <section id="footer" class="bg-light fixed-bottom">
         <div class="container">
           <div class="row">
             <div class="col mb-2">
