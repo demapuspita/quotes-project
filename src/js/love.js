@@ -9,18 +9,18 @@ let quotesData;
 */
 
 var colors = [
-  '#16a085',
-  '#27ae60',
-  '#2c3e50',
-  '#f39c12',
-  '#e74c3c',
-  '#9b59b6',
+  '#E97777',
+  '#FF9F9F',
+  '#FCDDB0',
+  '#FFFAD7',
+  '#FFB9B9',
+  '#FFDDD2',
   '#FB6964',
-  '#342224',
-  '#472E32',
+  '#FFACC7',
+  '#FF8DC7',
   '#BDBB99',
-  '#77B1A9',
-  '#73A857'
+  '#FCE2DB',
+  '#FF8FB1'
 ];
 var currentQuote = '',
   currentAuthor = '';
